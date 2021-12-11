@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="@string/puntuacion_4_5"
-                android:textColor="#FFE500"
+                android:textColor="#8BC34A"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
