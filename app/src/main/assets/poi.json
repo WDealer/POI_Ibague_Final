@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Conservatorio del Tolima",
+        "des": "El Conservatorio del Tolima es una escuela musical situada en Ibagué, en la región andina de Colombia",
+        "stars": "Puntuacion: 4.7",
+        "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Conservatorio_del_Tolima.jpg"
+    },
+    {
+        "name": "Parque De la musica",
+        "des": "Parque de la Música Parque ubicado en Ibague, la ciudad musical de Colombia que rinde homenaje a los músicos tolimenses por medio de una serie de esculturas",
+        "stars": "Puntuacion: 4.3",
+        "urlPicture": "https://elturismoencolombia.com/wp-content/uploads/2018/07/ibague_parque_musica_tolima_colombia_travel.jpg"
+    },
+    {
+        "name": "Museo de Artes del Tolima",
+        "des": "El Museo de Arte del Tolima, es un museo ubicado en Ibagué, Colombia, y es uno de los más activos museos regionales de Colombia.",
+        "stars": "Puntuacion: 4.9",
+        "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Museo_de_Arte_del_Tolima_116.jpg"
+    },
+    {
+        "name": "Cañon del conbeima",
+        "des": "El Cañón del Combeima se encuentra ubicado a cinco minutos de Ibagué y es la puerta de entrada al Parque Nacional Natural Los Nevados",
+        "stars": "Puntuacion: 4.5",
+        "urlPicture": "https://blog.redbus.co/wp-content/uploads/2019/04/P1110636_2.jpg"
+    },
+    {
+        "name": "Concha Acustica",
+        "des": "En el centro de este bello lugar, se localiza la Concha Acústica Garzón y Collazos. Creada en honor al dúo que hizo inmortal, la música tolimense.",
+        "stars": "Puntuacion: 4.4",
+        "urlPicture": "https://www.elolfato.com/sites/default/files/assets/news/concha_acustica_2.jpg"
+    }
+]
