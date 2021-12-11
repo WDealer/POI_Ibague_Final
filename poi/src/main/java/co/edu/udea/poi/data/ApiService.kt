@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("/WDealer/POI_Final/poi")
+    @GET("/WDealer/POI_Ibague_Final/poi")
     suspend fun getPoi(): Poi
 }
