@@ -1,11 +1,11 @@
-package co.edu.udea.poi.preference
+package co.edu.udea.poi.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import co.edu.udea.poi.R
-import co.edu.udea.poi.main.MainActivity
+import co.edu.udea.poi.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

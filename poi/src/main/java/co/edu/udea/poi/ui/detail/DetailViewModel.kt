@@ -1,4 +1,4 @@
-package co.edu.udea.poi.detail
+package co.edu.udea.poi.ui.detail
 
 import androidx.lifecycle.ViewModel
 

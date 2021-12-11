@@ -1,4 +1,4 @@
-package co.edu.udea.poi.main
+package co.edu.udea.poi.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import co.edu.udea.poi.R
-import co.edu.udea.poi.preference.SettingsFragment
+import co.edu.udea.poi.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

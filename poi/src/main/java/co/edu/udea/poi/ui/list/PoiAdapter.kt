@@ -1,4 +1,4 @@
-package co.edu.udea.poi.list
+package co.edu.udea.poi.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

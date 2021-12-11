@@ -1,4 +1,4 @@
-package co.edu.udea.poi.bottom
+package co.edu.udea.poi.ui.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

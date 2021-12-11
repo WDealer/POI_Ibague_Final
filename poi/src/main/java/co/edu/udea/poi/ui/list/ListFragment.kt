@@ -1,4 +1,4 @@
-package co.edu.udea.poi.list
+package co.edu.udea.poi.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import co.edu.udea.poi.databinding.FragmentListBinding
-import co.edu.udea.poi.main.MainActivity
+import co.edu.udea.poi.ui.main.MainActivity
 import co.edu.udea.poi.model.PoiItem
 
 class ListFragment : Fragment() {
@@ -32,7 +32,8 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockPoiFromJson(context?.assets?.open("poi.json"))
+        //listViewModel.loadMockPoiFromJson(context?.assets?.open("poi.json"))
+        listViewModel.getPoiFromServer()
 
         listViewModel.onPoiLoaded.observe(viewLifecycleOwner,{result ->
             onPoiLoadedSubscribe(result)

@@ -1,4 +1,4 @@
-package co.edu.udea.poi.detail
+package co.edu.udea.poi.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,10 +8,8 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import co.edu.udea.poi.R
 import co.edu.udea.poi.databinding.FragmentDetailBinding
-import co.edu.udea.poi.main.MainActivity
-import com.squareup.picasso.Picasso
+import co.edu.udea.poi.ui.main.MainActivity
 
 class DetailFragment : Fragment() {
 
